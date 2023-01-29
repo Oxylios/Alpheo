@@ -1,0 +1,129 @@
+*{
+    font-family: 'Unbounded', cursive;
+    background-color: #343a40;
+}
+#nice {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 780px;
+    font-size: 30px;
+    color: white;;
+}
+.text {
+    position: absolute;
+    font-size: 20px;
+    height: 60px;
+    top: 400px;
+    left: 600px;
+    width: 1400px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#output {
+    position: absolute;
+    font-size: 20px;
+    height: 500px;
+    top: 550px;
+    left: 650px;
+    width: 1300px;
+    border-width: 7px;
+    border-color: white;
+    background-color: #343a40;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ako {
+    position: absolute;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 3px;
+    font-size: 20px;
+    height: 30px;
+    top: 20px;
+    left: 920px;
+    width: 600px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btn {
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+    height: 130px;
+    width: 400px;
+    left: 1035px;
+    top: 200px;
+    border-color: rgb(255, 255, 255);
+    background-color: #343a40;
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.7s;
+    transform-origin: 50% 50%;
+    border-width: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btn:hover {
+    transform-origin: 50% 50% ;
+    transition: 0.7s;
+    transform: scale(120%);
+    border: 15px solid;
+    border-color: #22272b;
+    background-color: white;
+    color: #343a40;
+}
+.hom {
+    background-color: white;
+    border-radius: 10px;
+    width: 80px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    transition: 0.8s;
+}
+.hom:hover {
+    transform: scale(130%);
+    transition: 0.8s;
+    transform-origin: 50% 50%;
+}
+
+textarea {
+    border-color: #0b0c0c;
+    resize: none;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    
+};
+
+#loader {
+    position: relative;
+    z-index:100 ;
+    left: 50%;
+    top: 50%;
+    z-index: 100;
+    width: 150px;
+    height: 150px;
+    margin: -91px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+

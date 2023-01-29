@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style2.css">
+  <script src="mario64.js"></script>
+  <title>Lets chat</title>
+</head>
+<body>
+  <div id="loader"></div>
+  <a href="home.html">
+  <img class="hom" src="accueil.png">
+  </a>
+    <textarea id="input" class="text" rows="4" cols="50" placeholder="Entrez votre question ici"></textarea>
+    <label id="nice" for="">Clé d'Api:</label>
+    <input id="ako" type="text" placeholder="Enter your API key">
+    <!-- <textarea id="ak" class="text" rows="4" cols="50" placeholder="Entrez votre api key ici"></textarea> -->
+    <button id="btn" onclick="generateText()">Générer votre texte</button>
+    <br>
+    <textarea id="output" rows="4" cols="50" readonly placeholder="Votre réponse va s'afficher ici"></textarea>
+    
+  </body>
+</html>

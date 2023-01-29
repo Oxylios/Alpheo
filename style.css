@@ -1,0 +1,58 @@
+*{font-family: 'Unbounded', cursive;
+}
+.main_title
+{
+    
+    width: 1000px;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 770px;
+    font-size: 180px;
+    cursor: default
+}
+
+#start {
+    position: absolute;
+    border-radius: 10px;
+    height: 130px;
+    width: 400px;
+    left: 820px;
+    top: 700px;
+    border-color: rgb(49, 49, 49);
+    background-color: rgb(49, 49, 49);
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.7s;
+    transform-origin: 50% 50%;
+}
+#start:hover {
+    transform-origin: 50% 50% ;
+    transition: 0.7s;
+    transform: scale(120%);
+    border: 5px solid;
+}
+
+#tuto {
+    position: absolute;
+    border-radius: 10px;
+    height: 130px;
+    width: 400px;
+    left: 1320px;
+    top: 700px;
+    border-color: rgb(49, 49, 49);
+    background-color: rgb(49, 49, 49);
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.7s;
+    transform-origin: 50% 50%;
+}
+#tuto:hover {
+    transform-origin: 50% 50% ;
+    transition: 0.7s;
+    transform: scale(120%);
+    border: 5px solid;
+}
+
